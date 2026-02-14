@@ -28,31 +28,31 @@ This project demonstrates the integration of modern AI technologies to create an
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    User Interface                        │
-│                   (Gradio Web UI)                        │
+│                    User Interface                       │
+│                   (Gradio Web UI)                       │
 └───────────────────┬─────────────────────────────────────┘
                     │
                     ▼
 ┌─────────────────────────────────────────────────────────┐
-│                  PDF Processor                           │
+│                  PDF Processor                          │
 │        • Text Extraction (pdfplumber + PyPDF2)          │
-│        • Intelligent Chunking (overlap strategy)         │
-│        • Metadata Preservation                           │
+│        • Intelligent Chunking (overlap strategy)        │
+│        • Metadata Preservation                          │
 └───────────────────┬─────────────────────────────────────┘
                     │
                     ▼
 ┌─────────────────────────────────────────────────────────┐
-│                   ChromaDB                               │
-│        • Vector Storage (embeddings)                     │
+│                   ChromaDB                              │
+│        • Vector Storage (embeddings)                    │
 │        • Semantic Search (cosine similarity)            │
 │        • Efficient Retrieval (top-k queries)            │
 └───────────────────┬─────────────────────────────────────┘
                     │
                     ▼
 ┌─────────────────────────────────────────────────────────┐
-│              Handbook Generator                          │
-│        • Google Gemini API Integration                   │
-│        • Iterative Section Generation                    │
+│              Handbook Generator                         │
+│        • Google Gemini API Integration                  │
+│        • Iterative Section Generation                   │
 │        • Structured Prompting (LongWriter technique)    │
 │        • Demo Mode Fallback                             │
 └─────────────────────────────────────────────────────────┘
