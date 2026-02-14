@@ -1,0 +1,8 @@
+gradio
+pypdf2
+python-dotenv
+openai
+pdfplumber
+chromadb
+langchain
+langchain-community
